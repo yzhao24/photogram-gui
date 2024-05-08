@@ -67,6 +67,7 @@ class PhotosController < ApplicationController
 
     the_photo.save
     next_url = "/photos/" + the_photo.id.to_s 
+
     redirect_to(next_url)
     
   end  
